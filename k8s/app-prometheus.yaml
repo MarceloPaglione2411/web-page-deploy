@@ -10,12 +10,7 @@ spec:
     chart: prometheus
     targetRevision: 31.0.0
     helm:
-      releaseName: prometheus
-      parameters:
-        - name: server.service.type
-          value: NodePort
-        - name: server.service.nodePort
-          value: "30090"
+      releaseName: prometheus    
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoramento    
