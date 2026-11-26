@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/MarceloPaglione2411/web-page-deploy.git 
     targetRevision: HEAD
-    path: /home/marcelo/Documents/argocd/web-page-deploy/kustomize
+    path: kustomize
   destination:
     server: https://kubernetes.default.svc
     namespace: conversao
